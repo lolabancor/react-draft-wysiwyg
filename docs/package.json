@@ -47,7 +47,9 @@
     "clean": "rimraf static",
     "build:webpack": "NODE_ENV=production webpack --config config/webpack.prod.config.js",
     "build": "npm run clean && npm run build:webpack",
-    "start": "node config/server.dev.js"
+    "start": "node config/server.dev.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Jyoti Puri",
   "license": "MIT",
@@ -61,6 +63,8 @@
     "react-color": "^2.13.8",
     "react-dom": "^16.2.0",
     "react-draft-wysiwyg": "file:.yalc/react-draft-wysiwyg",
-    "react-router": "^3.0.2"
-  }
+    "react-router": "^3.0.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
