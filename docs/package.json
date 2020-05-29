@@ -54,7 +54,7 @@
   "dependencies": {
     "babel-plugin-lodash": "^3.3.2",
     "classnames": "^2.2.5",
-    "codemirror": "^5.32.0",
+    "codemirror": "^5.54.0",
     "immutable": "^4.0.0-rc.1",
     "react": "^16.2.0",
     "react-codemirror": "^1.0.0",
